@@ -6,7 +6,7 @@
   <title>Ireland Constituency Test</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./map.css">
+  <link rel="stylesheet" href="./map.css?c={{site.time | date: '%s'}}">
 </head>
 <body>
   <div class="container">
@@ -21,6 +21,6 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/topojson.v3.js"></script>
 
-  <script src="./map.js"></script>
+  <script src="./map.js?c={{site.time | date: '%s'}}"></script>
 </body>
 </html>
