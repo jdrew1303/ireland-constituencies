@@ -14,7 +14,7 @@ function main() {
     var g = svg.append("g").attr("class", "ireland");
     var g_dub = svg.append("g").attr("class", "dublin");
 
-    d3.json("/ireland.topo.json", function(error, ireland) {
+    d3.json("./ireland.topo.json", function(error, ireland) {
         if (error) throw error;
 
         console.log(ireland);
