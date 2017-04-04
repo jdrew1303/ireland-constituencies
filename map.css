@@ -1,0 +1,56 @@
+#map path {
+    fill: #eee;
+    transition: all 0s;
+    stroke: #ccc;
+    stroke-width: .5px
+}
+
+#map path:hover {
+    cursor: pointer;
+    opacity: 0.8 !important;
+}
+
+#map svg {}
+
+#map path.active {
+    fill: #999;
+    stroke: #ccc;
+    stroke-width: .01px;
+}
+
+#map rect {
+    fill: #fff;
+}
+
+#map rect:hover {
+    cursor: pointer;
+}
+/*
+@media only screen {}
+
+@media only screen and (max-width: 40em) {
+    #map {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {}
+
+@media only screen and (min-width: 64.063em) {
+    #map {
+        margin-right: 3rem;
+    }
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+
+@media only screen and (min-width: 90.063em) {}
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+@media only screen and (min-width: 120.063em) {}
+*/
+
+
